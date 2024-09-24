@@ -239,7 +239,7 @@ hr {
     padding: 30px;
 }
 
-#signup-form > h2 {
+#signup-form>h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
@@ -252,7 +252,7 @@ hr {
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     padding: 0 5px;
-    
+
 }
 
 .radio-buttons {
@@ -338,12 +338,12 @@ hr {
         align-self: flex-end;
     }
 
-/* Gallery */
+    /* Gallery */
     #photos {
         column-count: 3;
     }
 
-/* Sign-up Form*/
+    /* Sign-up Form*/
     #signup {
         background-position: center;
         position: relative;
@@ -365,7 +365,7 @@ hr {
         color: #454b1b;
     }
 
-    }
+}
 
 
 
