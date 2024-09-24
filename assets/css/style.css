@@ -174,7 +174,7 @@ hr {
 /* Meetups section*/
 
 #times {
-    background: url("../images/dublin-city.webp") no-repeat center center/cover;
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
     /* handles responsivity without need for media query */
     display: flex;
     flex-wrap: wrap;
@@ -208,25 +208,11 @@ hr {
     line-height: 0;
 }
 
-/* footer */
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
-#social-networks i {
-    font-size: 160%;
-    padding: 5%;
-    color: #3a3a3a;
-}
 
 /* Sign-up Page */
 
 #signup {
-    background: url("../images/signup-image.webp");
+    background-image: url('../images/signup-image.webp');
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -269,6 +255,21 @@ hr {
     border-radius: 2px;
     padding: 15px 32px;
     margin-top: 20px;
+}
+
+/* footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
 }
 
 /* media query: large or landscape phones (576px and up) */
